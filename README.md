@@ -75,6 +75,7 @@ wget https://opera.fantom.network/mainnet.g
 
 10. Download last Snapshot (you can find more recent link in https://docs.fantom.foundation/staking/snapshot-download
 ```
+cd /home/ftm
 wget https://download.fantom.network/opera_pruned_3feb22.tgz
 tar zxvf opera_pruned_3feb22.tgz
 ```
