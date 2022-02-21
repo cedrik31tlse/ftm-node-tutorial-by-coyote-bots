@@ -10,6 +10,16 @@ Link to official server of Coyote bots : https://discord.gg/fP3Z4tY92j
 
 This tutorial helps to create a node on FTM network from a fresh install of Ubuntu 20.04.
 
+0. HETZNER put disk in RAID 0 
+
+```
+- Run your server in Linux Rescue mode
+  - Go in your server panel on hetzner website
+  - Go in Rescue tab. Activate it and save the new password
+  - Go in Reset tab and do a Automatic reset
+  - Run in SSH with the new root password
+```
+
 1. Update all packages
 
 ```
