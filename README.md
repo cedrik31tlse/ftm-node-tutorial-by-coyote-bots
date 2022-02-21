@@ -18,6 +18,17 @@ This tutorial helps to create a node on FTM network from a fresh install of Ubun
   - Go in Rescue tab. Activate it and save the new password
   - Go in Reset tab and do a Automatic reset
   - Run in SSH with the new root password
+  
+  Type :
+  installimage
+  
+  Then change SWRAIDLEVEL to 0
+  
+  Then press F2 to save
+  Then press F10 2 times to exit.
+  
+  At the end of the reformat, enter "reboot". 
+  The server will reboot and you can start at step 1.
 ```
 
 1. Update all packages
